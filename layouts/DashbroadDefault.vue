@@ -4,7 +4,6 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Inter"
     />
-
     <div class="body">
       <div class="container-fluid d-flex">
         <div class="left-menu">
