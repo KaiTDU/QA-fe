@@ -25,7 +25,6 @@ export default {};
 </script>
 <style scoped>
 .footer {
-  height: 426px;
   background: var(--background-color-secondary);
 }
 a {

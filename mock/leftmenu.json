@@ -1,4 +1,4 @@
 [
     {"id": 1, "name": "Dashbroad", "path": "/", "active": true, "img": "launchpad"},
-    {"id": 2, "name": "My Ask", "path": "/", "active": false, "img": "nftpad"}
+    {"id": 2, "name": "Admin", "path": "/", "active": false, "img": "nftpad"}
 ]

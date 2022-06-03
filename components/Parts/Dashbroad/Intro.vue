@@ -4,9 +4,14 @@
       <div class="intro-title">Online Q&A System</div>
     </div>
     <div class="d-flex justify-content-center align-items-center">
-      <div>
+      <div class="mt-2">
         A place where you can freely ask questions and get proper answers
       </div>
+    </div>
+    <div class="mt-5 d-flex justify-content-center">
+      <h3 class="mt-5">
+        If you want to post questions on the forum, please create an account
+      </h3>
     </div>
   </div>
 </template>

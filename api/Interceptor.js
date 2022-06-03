@@ -1,13 +1,14 @@
 import axios from 'axios';
+import JSCookie from 'js-cookie';
 
 const brAxios = axios.create({
-  baseURL: 'http://localhost:3001/api/',
+  baseURL: 'http://localhost:8082/api/',
   timeout: 10000,
 });
 
 const requestHandler = (request) => {
   // token authen
-  const authToken = 'dasdasdasdasdas';
+  const authToken = JSCookie.get('token');
   request.headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'X-Requested-With',
